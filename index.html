@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fontawesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Ion Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <title>My Website</title>
+  </head>
+  <body>
+
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #5E8A3D;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Dimension</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#offer">Offers</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Courses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="graphic design.html">Graphic Design</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="web design.html">Web Design</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="wordpress.html">WordPress</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="digital marketing.html">Digital Marketing</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-nav-btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--banner-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.pinimg.com/originals/90/88/40/908840612a991abe3cac0cc9c5458b9a.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/originals/90/88/40/908840612a991abe3cac0cc9c5458b9a.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/originals/90/88/40/908840612a991abe3cac0cc9c5458b9a.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <!--Offers-->
+    <div class="container mt-5" id="offer">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <h1 class="mytxtcolor">Special Offer</h1><hr>
+          <div>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Nulla explicabo iure repellendus neque, voluptas cumque molestiae optio fugiat eveniet nam adipisci vel debitis illum quia atque sit dolor ea. Ut.</div>
+          
+          <div class="mt-3">
+            <i class="fas fa-angle-right myicon"></i>
+            Lorem, ipsum, dolor sit amet consectetur adipisicing elit
+          </div>
+          <div class="mt-3">
+            <i class="fas fa-angle-right myicon"></i>
+            Lorem, ipsum, dolor sit amet consectetur adipisicing elit
+          </div>
+          <div class="mt-3 mb-5">
+            <i class="fas fa-angle-right myicon"></i>
+            Lorem, ipsum, dolor sit amet consectetur adipisicing elit
+          </div>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success mybtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Get Offer Now
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Application Form</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success mybtn" data-bs-dismiss="modal">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <img src="https://thumbs.dreamstime.com/b/d-special-offers-icon-white-background-illustration-39683096.jpg" alt="offer" width="100%">
+        </div>
+      </div>
+    </div>
+
+   <!--Courses-->
+   <div class="container mt-3">
+     <div class="row">
+      <h1 class="mytxtcolor">Our Courses</h1><hr>
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+         <div class="card" style="width: 100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqAFhOElWStAqPF4ErMuYmnTsdLIJrXDx8vw&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Graphic Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="graphic design.html" class="btn btn-success mybtn">Learn More</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+         <div class="card" style="width: 100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqAFhOElWStAqPF4ErMuYmnTsdLIJrXDx8vw&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="web design.html" class="btn btn-success mybtn">Learn More</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+         <div class="card" style="width: 100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqAFhOElWStAqPF4ErMuYmnTsdLIJrXDx8vw&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">WordPress</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="wordpress.html" class="btn btn-success mybtn">Learn More</a>
+            </div>
+          </div>
+       </div>
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+         <div class="card" style="width: 100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqAFhOElWStAqPF4ErMuYmnTsdLIJrXDx8vw&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="digital marketing.html" class="btn btn-success mybtn">Learn More</a>
+            </div>
+          </div>
+       </div>
+     </div>
+   </div>
+
+   <!--About Us-->
+   <div class="container mt-5" id="about">
+     <div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+         <img src="https://webassets.oxfamamerica.org/media/images/EarthDayWeb.width-1200.png" alt="about" width="100%">
+       </div>
+       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+         <h1 class="mytxtcolor">About Us</h1><hr>
+          <div>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Nulla explicabo iure repellendus neque, voluptas cumque molestiae optio fugiat eveniet nam adipisci vel debitis illum quia atque sit dolor ea. Ut.</div>
+          
+          <div class="mt-3">
+            <i class="fas fa-angle-right myicon"></i>
+            Lorem, ipsum, dolor sit amet consectetur adipisicing elit
+          </div>
+          <div class="mt-3">
+            <i class="fas fa-angle-right myicon"></i>
+            Lorem, ipsum, dolor sit amet consectetur adipisicing elit
+          </div>
+          <div class="mt-3">
+            <i class="fas fa-angle-right myicon"></i>
+            Lorem, ipsum, dolor sit amet consectetur adipisicing elit
+          </div>
+          <div class="mt-3">
+            <i class="fas fa-angle-right myicon"></i>
+            Lorem, ipsum, dolor sit amet consectetur adipisicing elit
+          </div>
+       </div>
+     </div>
+   </div>
+
+
+   <!--Contact us-->
+   <div class="container mt-5" id="contact">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mb-sm-4">
+          <h1 class="mytxtcolor">Contact with us</h1> <hr>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-success mybtn">Submit Now</button>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <img src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="offer" width="100%">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-dark mt-5">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Courses</h3>
+                        <ul>
+                            <li><a href="graphic design.html">Graphic Design</a></li>
+                            <li><a href="web design.html">Web design</a></li>
+                            <li><a href="wordpress.html">WordPress</a></li>
+                            <li><a href="digital marketing.html">Digital Marketing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Important Links</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Dimension</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Dimension © 2022</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
